@@ -1,3 +1,7 @@
+/*
+   Kyle A. Matheny
+   Lansing Community College
+*/
 var runCleanup = (/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
 
 function cleanupMenu () {
