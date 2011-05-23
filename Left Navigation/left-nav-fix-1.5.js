@@ -1,7 +1,7 @@
 /*
    Kyle A. Matheny
    Lansing Community College
-   2011/05/20
+   2011/05/23
 */
 
 var runCleanup = (/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
@@ -13,7 +13,7 @@ function cleanupMenu () {
             rxBadItem: /[_|>]/
          },
          classes: {
-            hiddenClass: "redhead",
+            hiddenClass: "textOnly",
             showClass: ""
          }
       },
