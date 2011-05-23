@@ -4,7 +4,7 @@
    2011/05/23
 */
 
-var runCleanup = (/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
+(/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
 
 function cleanupMenu () {
    var lcc = {
