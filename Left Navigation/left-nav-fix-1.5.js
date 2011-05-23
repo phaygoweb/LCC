@@ -4,8 +4,6 @@
    2011/05/23
 */
 
-var cleanup = (/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
-
 function cleanupMenu() {
    var lcc = {
          leftNav: {
@@ -30,3 +28,5 @@ function cleanupMenu() {
       }
    }
 }
+
+var cleanup = (/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
