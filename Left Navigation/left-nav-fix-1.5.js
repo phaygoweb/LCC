@@ -4,9 +4,9 @@
    2011/05/23
 */
 
-(/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
+var cleanup = (/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
 
-function cleanupMenu () {
+function cleanupMenu() {
    var lcc = {
          leftNav: {
             menuItems: document.getElementById("ct100_ct100_ct100_LeftCol_leftNav").getElementsByTagName("a"),
@@ -21,7 +21,7 @@ function cleanupMenu () {
       tempElement = "",
       tempString = "";
    
-   while(i--) {
+   while (i--) {
       tempElement = lcc.leftNav.menuItems[i];
       tempString = tempElement.firstChild.nodeValue;
       
