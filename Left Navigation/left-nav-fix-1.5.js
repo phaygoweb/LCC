@@ -1,6 +1,7 @@
 /*
    Kyle A. Matheny
    Lansing Community College
+   2011/05/20
 */
 
 var runCleanup = (/equator/.test(window.location.href.toLowerCase())) ? false : cleanupMenu();
